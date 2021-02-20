@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  adessorideshare:
+    image: ${DOCKER_REGISTRY-}adessorideshare
+    container_name: AdessoRideShareApi
+    build:
+      context: .
+      dockerfile: AdessoRideShare/Dockerfile
+    ports:
+      - "49396:80"
+    restart: always
