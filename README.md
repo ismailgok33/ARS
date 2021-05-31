@@ -1,5 +1,5 @@
 # ARS
-AdessoRideShare - Proje Detayları
+Ride Share Proje Detayları
 
 
 Projede kullanılan Teknolojiler: 
